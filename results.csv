@@ -1,0 +1,5 @@
+Scenario_ID,Scenario_File,Type,Read_Percentage,Queue_Depth,Seed,Trace_File,Percentage_To_Be_Executed,Device_Response_Time(us),Avg_Read_Latency(ns),Avg_Write_Latency(ns),IOPS,IOPS_Read,IOPS_Write
+1,workload_scenario_1.xml,Synthetic,30,16,111,,,324,917,6782,47644.748345,14382.991755,33261.756589
+2,workload_scenario_2.xml,Synthetic,50,4,222,,,138,240,915,28797.494593,14442.217853,14355.276740
+3,workload_scenario_3.xml,Trace,,,,traces/tpcc-small.trace,25,740,897,4425,1771.043462,1080.447898,690.595564
+4,workload_scenario_4.xml,Trace,,,,traces/wsrch-small.trace,25,183,184,851,436.221548,436.080718,0.140830
